@@ -1,0 +1,15 @@
+{
+    "token": "bot-token",
+    "prefix": "d!",
+    "owner": "owner-id",
+    "logChannel": "join-leave-channel-id",
+    "messageDeleteLog": "message-delete-channel-id",
+    "generalChannel": "general-channel-id",
+    "welcomeChannel": "welcome-channel-id",
+    "lastUpdateDate": "since 12/1/20",
+    "opts": {
+        "mentionEveryone": false,
+        "fetchAllMembers": true,
+        "sync": true
+    }
+}
