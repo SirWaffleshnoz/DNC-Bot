@@ -9,6 +9,10 @@ exports.run = async (bot, member) => {
         .setTitle('Member joined!')
         .setColor(3447003);
 
+    //adds american citizen rank
+    const target = member.id
+    await target.roles.add('783419251259736100');
+
     channel.send({
         embed: join
     })
