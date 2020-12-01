@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'resgistration-info',
+    name: 'registration-info',
     permission: 2,
     main: function (bot, msg) {
       msg.channel.send({

@@ -6,21 +6,19 @@ module.exports = {
     main: async function (bot, msg) {
         const yup = bot.emojis.cache.find(emoji => emoji.name == "yup").toString();
         var log = msg.guild.channels.cache.get(bot.config.logChannel);
-        const target = msg.mentions.members.first();
+        const registree = msg.mentions.members.first();
         
         //party member id: 783419251259736101
 
-        if (target != null) {
+        if (registree != null) {
             var logEmbed = new Discord.MessageEmbed()
                 .setAuthor(msg.author.username, msg.author.avatarURL())
-                .addField('Party member approved:', yup + ` **${registree.username}#${registree.discriminator} (${registree.id}) has been registered!**`)
-                .addField('Roblox Username:', registreeUsername)
-                .addField('Affiliated with another party?', partyCheck)
+                .addField('Party member approved:', yup + ` **${registree} (${registree.id}) has been registered!**`)
                 .setFooter('The Democratic National Committee', bot.user.avatarURL())
                 .setTimestamp()
                 .setColor(3447003);
 
-            await target.roles.add('783419251259736101');
+            await registree.roles.add('783419251259736101');
             await msg.channel.send({
                 embed: logEmbed
             })
@@ -28,7 +26,7 @@ module.exports = {
                 embed: logEmbed
             })
         } else {
-            msg.reply("mention the target! Usage: `d!approve [@user]`");
+            msg.reply("mention the registree! Usage: `d!approve [@user]`");
         }
 
         msg.delete();
