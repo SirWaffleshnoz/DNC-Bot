@@ -14,7 +14,7 @@ module.exports = {
           fields: [
             {
               name: "1. Be respectful.",
-              value: "This rule is fairly self-explainable, and also incredibly easy to apply. Generally, just try to maintain a positive attitude, respect boundaries, and don't be an asshole. In that same regard, speech considered hateful or otherwise unhealthy for the server's atmosphere is heavily subjective; consequently, speech that you find appropriate may not always be appreciated by your peers. With this in mind, please be conscious of how your words might affect those around you."
+              value: "This rule is fairly self-explainable, and also incredibly easy to apply. Generally, just try to maintain a positive attitude, respect boundaries, and don't be excessively abrasive. In that same regard, speech considered hateful or otherwise unhealthy for the server's atmosphere is heavily subjective; consequently, speech that you find appropriate may not always be appreciated by your peers. With this in mind, please be conscious of how your words might affect those around you."
             },
             {
               name: "2. Use the appropriate text channels.",
