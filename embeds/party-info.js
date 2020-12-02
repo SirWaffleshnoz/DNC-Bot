@@ -10,7 +10,7 @@ module.exports = {
                 },
                 description: "The Democratic Party is one of the two major contemporary political parties in the United States. Our policies aim to further civil liberty and social equality while supporting a mixed economy. We value diversity and inclusivity; more importantly, we believe that together we truly are stronger.",
                 thumbnail: {
-                    url: 'https://i.imgur.com/wvWYtk2.png'
+                    url: 'https://i.imgur.com/iOEJqBL.png'
                 }
             }
         });
@@ -28,7 +28,7 @@ module.exports = {
                     },
                     {
                         name: "Strengthening our Democracy",
-                        value: "Democrats are committed to the sacred principle of “one person, one vote”—and we will fight to achieve that principle for every citizen, regardless of race, income, disability status, geography, or English language proficiency. We stand for the proposition that all Americans are entitled to the inalienable right to vote, and will continue to fight to protect that right."
+                        value: "Democrats are committed to the sacred principle of “one person, one vote”—and we will fight to achieve that principle for every citizen, regardless of race, income, disability status, geography, or English language proficiency. We stand for the proposition that all Americans are entitled to the inalienable right to vote."
                     },
                     {
                         name: "Criminal Justice",
@@ -44,7 +44,7 @@ module.exports = {
                     }
                 ],
                 image: {
-                    url: 'https://i.imgur.com/VbZ0PrQ.png',
+                    url: 'https://i.imgur.com/iluT8eC.png',
                 }
             }
         });
