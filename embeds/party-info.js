@@ -1,6 +1,6 @@
 module.exports = {
     name: 'party-info',
-    permission: 2,
+    permission: 3,
     main: function (bot, msg) {
         msg.channel.send({
             embed: {

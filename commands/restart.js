@@ -1,6 +1,6 @@
 module.exports = {
 	name: 'restart',
-	permission: 2,
+	permission: 3,
 	main: function(bot, msg){
 		msg.channel.send(":wave: " + bot.user.username + " is restarting...");
 

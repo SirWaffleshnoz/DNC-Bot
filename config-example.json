@@ -2,6 +2,7 @@
     "token": "bot-token",
     "prefix": "d!",
     "owner": "owner-id",
+    "coChair": "coChair-id",
     "logChannel": "join-leave-channel-id",
     "messageDeleteLog": "message-delete-channel-id",
     "generalChannel": "general-channel-id",

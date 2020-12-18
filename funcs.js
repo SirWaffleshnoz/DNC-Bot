@@ -10,6 +10,8 @@ module.exports = (bot) => {
 
 	bot.permLevel = function (msg) {
 		if (msg.author.id == bot.config.owner)
+			return 3;
+		else if (msg.author.id == bot.config.coChair)
 			return 2;
 		else
 			return 1;
